@@ -1,0 +1,30 @@
+{% extends "layouts/base.html" %}
+{% load i18n %}
+{% block content %}
+
+    <div class="row">
+        {% for post in posts %}
+            <div class="col-lg-3 mb-3">
+                <div class="card h-100">
+                    <div class="card-header">{{ post.subject }}</div>
+                    <div class="card body">
+                        <strong>{% translate "Sana" %}:</strong> {{ post.added_at }}<br/>
+                        <strong>{% translate "Kategoriya" %}:</strong> {{ post.category.name }}<br/><br/>
+                        <a href="{% url 'main_post_read' post.id %}">{% translate "O'qish" %}</a>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12">
+                <h1>{% translate "Birorta ham maqola qo'shilmagan" %}</h1>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
+
+
+
+
+
+

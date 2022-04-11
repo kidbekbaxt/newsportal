@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-04 10:34+0500\n"
+"PO-Revision-Date: 2022-02-04 10:37+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: account/views.py:26
+msgid "Login va/yoki parol noto'g'ri"
+msgstr "Giriş ve/veya şifre yanlış"
+
+#: main/views.py:41
+msgid "Maqola muvaffaqiyatli qo'shildi"
+msgstr "Makale başarıyla eklendi"
+
+#: templates/account/login.html:8
+msgid "Login"
+msgstr "Giriş yapmak"
+
+#: templates/account/login.html:14 templates/layouts/base.html:45
+msgid "Tizimga kirish"
+msgstr "Giriş yapmak"
+
+#: templates/account/registration.html:8 templates/layouts/base.html:50
+msgid "Ro'yxatdan o'tish"
+msgstr "Üye olmak"
+
+#: templates/account/registration.html:14
+msgid "Ro'yhatdan o'tish"
+msgstr "Üye olmak"
+
+#: templates/layouts/base.html:32 templates/main/post.html:8
+msgid "Maqola qo'shish"
+msgstr "Makale ekle"
+
+#: templates/layouts/base.html:39
+msgid "Chiqish"
+msgstr "çıkış"
+
+#: templates/main/index.html:11
+msgid "Sana"
+msgstr "Tarih"
+
+#: templates/main/index.html:12
+msgid "Kategoriya"
+msgstr "Kategori"
+
+#: templates/main/index.html:13
+msgid "O'qish"
+msgstr "Okuma"
+
+#: templates/main/index.html:19
+msgid "Birorta ham maqola qo'shilmagan"
+msgstr "Hiçbir makale eklenmedi"
+
+#: templates/main/post.html:14
+msgid "Saqlash"
+msgstr "Kayıt etmek"
+
+#~ msgid "Bosh sahifa"
+#~ msgstr "Ana sayfa"
